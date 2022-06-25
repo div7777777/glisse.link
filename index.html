@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 1100px;
+    background: linear-gradient(90deg, grey,whitesmoke);
+    animation: 4s infinite neon;
+}
+@keyframes neon{
+    50%{
+        background: linear-gradient(90deg, whitesmoke, grey);
+    }
+}
+/* profil */
+.profil{
+    overflow: hidden;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.prof{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 4px solid black;
+  padding: 4px;
+  background: whitesmoke;
+}
+@keyframes rotate{
+    50%{
+        transform: rotateZ(360deg);
+        opacity: 1;
+    }
+ 
+}
+/* contacte+adresse */
+.contacte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 370px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #7ff000, grey, whitesmoke);
+}
+.adr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.s{
+    font-size: 25px;
+    animation: 2s infinite s;
+}
+@keyframes s{
+    10%{
+        color: red;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+
+.o{
+    font-size: 25px;
+    animation: 2s infinite o;
+}
+@keyframes o{
+    20%{
+        color: yellow;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.c{
+    font-size: 25px;
+    animation: 2s infinite c;
+}
+@keyframes c{
+    30%{
+        color: turquoise;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.i{
+    font-size: 25px;
+    animation: 2s infinite i;
+}
+@keyframes i{
+    40%{
+        color: chartreuse;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.a{
+    font-size: 25px;
+    animation: 2s infinite a;
+}
+@keyframes a{
+    50%{
+        color: darkblue;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.l{
+    font-size: 25px;
+    animation: 2s infinite l;
+}
+@keyframes l{
+    60%{
+        color: darkorange;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+._{
+    font-size: 20px;
+    opacity: 0;
+}
+
+.LL{
+    font-size: 25px;
+    animation: 2s infinite LL;
+}
+@keyframes LL{
+    70%{
+        color: white;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.II{
+    font-size: 25px;
+    animation: 2s infinite II;
+}
+@keyframes II{
+    80%{
+        color: green;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.n{
+    font-size: 25px;
+    animation: 2s infinite n;
+}
+@keyframes n{
+    90%{
+        color: hotpink;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.k{
+    font-size: 25px;
+    animation: 2s infinite k;
+}
+@keyframes k{
+    100%{
+        color: maroon;
+        background: whitesmoke;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+}
+.symbole{
+    border-radius: 50px;
+    animation: 7s infinite rotate;
+}
+/* slider  */
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 600px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    animation: 7s infinite glisse;
+}
+@keyframes glisse{
+    50%{
+        transform: translateX(107px);
+    }
+
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    border: 7px solid black;
+    color: black;
+    border-radius: 20px;
+    animation: 7s infinite opacity;
+
+}
+@keyframes opacity{
+    
+    0%, 49%{
+       opacity: 0; 
+    }   
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    color: chartreuse;
+}
+    </style>
+    <!-- profil -->
+    <div class="profil">
+        <img class="prof" src="profil.png" alt="">
+        </div>
+        <!-- contacte+adresse -->
+        <div class="contacte">
+            <div class="cont">
+            <img class="adr" src="a.png" alt="">
+            <img class="adr" src="b.png" alt="">
+            <img class="adr" src="c.png" alt="">
+            </div>
+        </div>
+    <!-- title -->
+    <div class="title">
+    <h1 class="s">S</h1>
+    <h1 class="o">O</h1>
+    <h1 class="c">C</h1>
+    <h1 class="i">I</h1>
+    <h1 class="a">A</h1>
+    <h1 class="l">L</h1>
+    <h1 class="_">_</h1>
+    <h1 class="LL">L</h1>
+    <h1 class="II">I</h1>
+    <h1 class="n">N</h1>
+    <h1 class="k">K</h1> 
+    <img class="symbole" src="https://img.icons8.com/ios/40/ffffff/centralized-network.png"/>
+
+    </div>
+    <!-- slider des compte réseaux -->
+    <div class="slider">
+        <div class="items"><img class="item" src="1.png" alt=""><h2 class="h2"> Facebook</h2></div>
+        <div class="items"><img class="item" src="2.png" alt=""><h2 class="h2"> Instagram</h2></div>
+        <div class="items"><img class="item" src="3.png" alt=""><h2 class="h2"> Twitter</h2></div>
+        <div class="items"><img class="item" src="4.png" alt=""><h2 class="h2"> Messenger</h2></div>
+        <div class="items"><img class="item" src="5.png" alt=""><h2 class="h2"> Linkdin</h2></div>
+    
+
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <h3 class="h3">Copyrigth22 HD</h3>
+
+    </footer>
+
+    
+</body>
+</html>
